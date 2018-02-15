@@ -4,11 +4,11 @@ library : https://github.com/netdata/libnodave
 
 compile :
 
-    mcs S7PLCVar.cs -r:libnodave.net.dll -out:./S7PLCVar
+        mcs S7PLCVar.cs -r:libnodave.net.dll -out:./S7PLCVar
 
 Usage:
 
-    S7PLCVar.exe [ipaddress] [rack] [slot] [address] [value]
+        S7PLCVar [ipaddress] [rack] [slot] [address] [value]
 
 Examples: 
 
