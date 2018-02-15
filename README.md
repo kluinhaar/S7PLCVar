@@ -1,8 +1,6 @@
 # S7PLCVar
 
-library : 
-    
-    https://github.com/netdata/libnodave
+library : https://github.com/netdata/libnodave
 
 compile :
 
