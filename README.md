@@ -3,10 +3,11 @@
 library : 
 https://github.com/netdata/libnodave
 
+
 Default credentials for administration area:
-    Login: admin        Password: admin
 
-
+    Login: admin    
+    Password: admin
 
 compile :
 mcs S7PLCVar.cs -r:libnodave.net.dll -out:./S7PLCVar
